@@ -1,0 +1,287 @@
+* {
+  font-family: Gill Sans, sans-serif;
+}
+
+body {
+  font-family: Gill Sans, sans-serif;
+  font-size: 15px !important;
+}
+h1{
+  color: #db4d41 !important;
+  font-size: 40px !important;
+  margin-top: 10px !important;
+}
+
+h2{
+  color: #db4d41 !important;
+  font-size: 30px !important;
+  margin-top: 20px !important;
+}
+p{
+width: 25% !important;
+color: green !important}
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+#navbar {
+  padding: 0;
+  margin: 0;
+}
+
+.backgroundpic {
+  padding: 0;
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#content{
+  width: 80%;
+}
+
+.wcontent{
+  width: 85% !important;
+  margin-left: 7% !important;
+}
+
+.contentyellow{
+  width: 100% !important;
+  background-color: #f4a909 !important;
+}
+
+.textwhite {
+  color: white;
+  font-size: 20px !important;
+}
+
+.textred {
+  color: #db4d41;
+  font-size: 20px !important;
+}
+
+.contentred{
+  width: 100% !important;
+  background-color: #db4d41 !important
+}
+
+.contentwhite{
+  width: 100% !important;
+  background-color: white !important
+}
+
+.content-calendar{
+  width: 70% !important;
+  margin-left: 10% !important;
+}
+
+.item {
+  text-align: center;
+}
+
+.pictures {
+  height: auto !important;
+  width: 500px !important;
+  overflow: hidden !important;
+}
+
+.picturecontainer {
+  height: 140px !important;
+  width: 100px;
+  overflow: hidden !important;
+}
+
+.bottombar {
+  position: relative;
+
+}
+
+.expandedpics {
+    height: 40em;
+    width: auto !important;
+}
+
+.modal {
+  top: 5% !important;
+}
+
+#contactinfo{
+text-align: center
+}
+
+.custom-form {
+  display: relative;
+  justify-content: center;
+}
+
+#about{
+  margin-left: 1em;
+}
+
+#headperf{
+  margin-left: 3em;
+}
+
+#fabmenu{
+  position: absolute;
+  left: 5%;
+  top: 70%
+}
+
+
+.homeicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 30% !important;
+  top: 70% !important
+}
+
+.projectsicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 22% !important;
+  top: 70% !important
+}
+.writingsicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 14% !important;
+  top: 70% !important
+}
+.experienceicon {
+  position: absolute !important;
+  width: 10% !important;
+  right: 6% !important;
+  top: 70% !important
+}
+
+#homeicon p{
+  margin-left: 20px !important;
+  color: white
+}
+
+.resume{
+  width: 100% !important;
+  height: 90em !important;
+}
+
+.doc{
+  width: 100% !important;
+  height: 45em !important;
+}
+
+.pixel {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.writing{
+  width: 70% !important;
+  left: 15% !important;
+}
+
+.meta{
+  color: #db4d41 !important
+}
+
+.ui.move.reveal > .visible.content{
+  width: 100% !important
+}
+.ui.reveal > .visible.content {
+  width: 100% !important;
+  height: auto !important
+}
+
+.ui.reveal > .hidden.content {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.ui.grid > .row > .column {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
+  margin: 0 !important;
+}
+
+.ui.grid > .row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.linkedcards {
+  width: 60% !important;
+  margin-left: 20% !important
+}
+
+.menubutton {
+position: absolute !important;
+  width: 20% !important;
+  left: 60% !important;
+  top: 50% !important;
+}
+.ui.secondary.pointing.menu {
+  border-bottom: 0 !important
+}
+.men {
+  position: fixed !important
+}
+
+@media only screen and (max-width: 600px) {
+  #projectsicon {
+    position: absolute;
+    width: 5% !important;
+    left: 15%;
+    top: 70%
+  }
+  #writingsicon {
+    position: absolute;
+    right: 15%;
+    top: 70%
+  }
+  #experienceicon {
+    position: absolute;
+    right: 0%;
+    top: 70%
+  }
+  #homeicon {
+    position: absolute;
+    left: 0%;
+    top: 70%;
+  }
+  .linkedcards {
+    width: 80% !important;
+    margin-left: 10% !important
+  }
+  h1{
+    color: #f4a909 !important;
+    font-size: 20px !important;
+  }
+
+  body {
+    font-family: Gill Sans, sans-serif;
+    font-size: 10px !important;
+  }
+ .writingsmobile {
+   visibility: hidden;
+ }
+}
